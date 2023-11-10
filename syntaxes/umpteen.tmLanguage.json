@@ -13,7 +13,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.umpteen",
-				"match": "\\b(if|while|for|return)\\b"
+				"match": "\\b(if|return|loop|break|continue|fnc)\\b"
 			}]
 		},
 		"strings": {
