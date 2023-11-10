@@ -1,0 +1,5 @@
+fnc hello() {
+  print("hello");
+}
+
+hello();
