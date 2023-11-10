@@ -1,0 +1,25 @@
+{
+  "name": "umpteen",
+  "displayName": "Umpteen",
+  "description": "VSCode Support for The Umpteen Programming Language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "umpteen",
+      "aliases": ["Umpteen", "umpteen"],
+      "extensions": [".um"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "umpteen",
+      "scopeName": "source.umpteen",
+      "path": "./syntaxes/umpteen.tmLanguage.json"
+    }]
+  }
+}
